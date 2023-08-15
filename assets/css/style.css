@@ -153,6 +153,7 @@ hr{
     border-color: var(--color-green);
 }
 
+/*part3*/
 .skills {
     display: flex;
     flex-direction: column;
@@ -177,12 +178,12 @@ hr{
 }
 
 .skills-icons-container {
-    max-width: 150px;
+    max-width: 9.375rem;
 }
 
 .skills-icons-container img {
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 9.375rem;
+    max-height: 9.375rem;
     width: auto;
     height: auto;
 }

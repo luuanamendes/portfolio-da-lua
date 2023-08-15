@@ -1,64 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/img/moon-icon.webp" type="image/x-icon">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Luana Mendes</title>
 </head>
+
 <body>
     <header>
-        <div>
-            <img src="assets/img/moon-icon.webp" alt="moon-icon">
-            <div>
+        <div class="menu-box">
+            <img class="menu-box-icon" src="assets/img/moon-icon.webp" alt="Moon con">
+            <nav class="menu-box-links">
                 <a href="">Home</a>
                 <a href="">Sobre Mim</a>
-                <a href="">Tech Stack</a>
+                <a href="">Skills</a>
                 <a href="">Projetos</a>
                 <a href="">Contato</a>
-            </div>
+            </nav>
         </div>
     </header>
     <main>
-        <section>
-            <h1>Oi,<span>Me chamo Luana,</span>
-                sou Desenvolvedora Web focada em Frontend, apaixonada por tecnologia e solucionar problemas.
+        <section class="home">
+            <h1 class="home-quemsou">Oi, <br><span>Me chamo Luana,</span><br>
+                sou Desenvolvedora Web <br> focada em Frontend, <br> apaixonada por tecnologia <br> & solucionar
+                problemas.
             </h1>
-            <img src="assets/img/perfil.webp" alt="ilustação-luana">
+            <img class="home-animation" src="assets/img/perfil.webp" alt="Ilustação Luana">
         </section>
-        <section>
-            <p></p>
-            <div>
-
+        <section class="about">
+            <p class="about-titulo">Sobre Mim</p>
+            <div class="about-box">
+                <div class="about-box-up">
+                    <div class="about-box-up-conteudo">
+                        <p class="descricao">Me formei como
+                            Técnica em Informática
+                            na Etec de Tiete, onde fui
+                            introduzida e dei
+                            meus primeiros passos
+                            na área de programação.
+                        </p>
+                        <p class="ano">2017</p>
+                    </div>
+                    <div class="about-box-up-conteudo">
+                        <p class="descricao">Me graduei em
+                            Gestão de TI na Fatec Tatuí,
+                            durante o curso, além de
+                            aprofundar meus conhecimentos
+                            na área de TI
+                            também pude me desenvolver
+                            aprendendo sobre gestão empresarial,
+                            gestão de projetos,
+                            gestão pessoas.
+                        </p>
+                        <p class="ano">2020</p>
+                    </div>
+                    <div class="about-box-up-conteudo">
+                        <p class="descricao">Trabalhei como frella
+                            em alguns projetos como
+                            designer e desenvolvedor web
+                            com foco em Frontend.
+                        </p>
+                        <p class="ano">2022</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="about-box-down">
+                    <div class="about-box-down-conteudo">
+                        <p class="ano">2019</p>
+                        <p class="descricao">Iniciei meu primeiro
+                            trabalho na área de tecnologia
+                            como técnica em informática,
+                            com manutenção de hardware
+                            e suporte.</p>
+                    </div>
+                    <div class="about-box-down-conteudo">
+                        <p class="ano">2021</p>
+                        <p class="descricao">Comecei a trabalhar
+                            como Instrutora de
+                            Programação
+                            em uma multinacional.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
-        <section>
-            <p></p>
-            <div>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+        <section class="skills">
+            <p class="skills-titulo">Skills</p>
+            <div class="skills-icons">
+                <div class="skills-icons-container"><img src="assets/img/html-icon.webp" alt="HTML icon"></div>
+                <div class="skills-icons-container"><img src="assets/img/css-icon.webp" alt="CSS icon"></div>
+                <div class="skills-icons-container"><img src="assets/img/js-icon.webp" alt="JS icon"></div>
+                <div class="skills-icons-container"><img src="assets/img/react-icon.webp" alt="React icon"></div>
+                <div class="skills-icons-container"><img src="assets/img/git-icon.webp" alt="Git icon"></div>
+                <div class="skills-icons-container"><img src="assets/img/github-icon.webp" alt="Github icon"></div>
+                <div class="skills-icons-container"><img src="assets/img/figma-icon.webp" alt="Figma icon"></div>
             </div>
         </section>
-        <section>
-            <p></p>
-            <p></p>
-            <div>
+        <section class="projetos">
+            <p class="projetos-titulo">Projetos</p>
+            <p class="projetos-descricao">Esses são alguns dos projetos que desenvolvi.</p>
+            <div class="projetos-container">
                 <div></div>
                 <div></div>
                 <div></div>
             </div>
         </section>
-        <section>
-            <p></p>
-            <div>
-                <p></p>
-                <div>
+        <section class="contato">
+            <p class="contato-titulo">Contato</p>
+            <div class="contato-container">
+                <p class="contato-container-email">contatoluamendes@gmail.com</p>
+                <div class="contato-container-redes">
                     <img src="" alt="">
                     <img src="" alt="">
                     <img src="" alt="">
@@ -67,14 +128,17 @@
         </section>
     </main>
     <footer>
-        <div>
-            <a href="">Home</a>
-            <a href="">Sobre Mim</a>
-            <a href="">Tech Stack</a>
-            <a href="">Projetos</a>
-            <a href="">Contato</a>
+        <div class="footer-container">
+            <div class="menu">
+                <a href="">Home</a>
+                <a href="">Sobre Mim</a>
+                <a href="">Skills</a>
+                <a href="">Projetos</a>
+                <a href="">Contato</a>
+            </div>
+            <p>Designed and built by <a href="">Luana Mendes</a> with <span>Love</span> & <span>Coffee.</span></p>
         </div>
-        <p>Designed and built by Luana Mendes with Love & Coffee.</p>
     </footer>
 </body>
+
 </html>

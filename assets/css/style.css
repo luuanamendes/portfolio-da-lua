@@ -149,7 +149,7 @@ main {
     color: var(--color-green);
 }
 
-hr{
+hr {
     border-color: var(--color-green);
 }
 
@@ -230,16 +230,15 @@ hr{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid white;
     width: 80%;
     padding: 1%;
 }
 
 .contato-titulo {
     font-weight: bold;
-    font-size: 48px;
+    font-size: 3rem;
     color: var(--color-light-200);
-    padding: 100px 0 30px 0;
+    padding: 6.25rem 0 2rem 0;
 }
 
 .contato-container {
@@ -252,6 +251,77 @@ hr{
     text-decoration: underline;
 }
 
+.contato-container-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/* for all social containers*/
+.socialContainer {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: var(--color-light-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .3s;
+}
+
+/* instagram*/
+.containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+}
+
+/* linkdin*/
+.containerTwo:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+}
+
+.containerThree:hover {
+    background-color: #238636;
+    transition-duration: .3s;
+}
+
+.containerFour:hover {
+    background-color: #0057FF;
+    transition-duration: .3s;
+}
+
+.socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+}
+
+.socialSvg {
+    width: 20px;
+}
+
+.socialSvg path {
+    fill: var(--color-dark-900);
+}
+
+.socialContainer:hover .socialSvg {
+    animation: slide 0.3s both;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
 footer {
     padding: 4% 0;

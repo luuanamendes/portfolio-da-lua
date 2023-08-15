@@ -188,26 +188,26 @@ hr{
     height: auto;
 }
 
+/*part4*/
 .projetos {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid white;
     width: 80%;
     padding: 1%;
 }
 
 .projetos-titulo {
     font-weight: bold;
-    font-size: 48px;
+    font-size: 3rem;
     color: var(--color-light-200);
-    padding: 100px 0 30px 0;
+    padding: 6.25rem 0 2rem 0;
 }
 
 .projetos-descricao {
     color: var(--color-light-200);
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 
 .projetos-container {
@@ -219,17 +219,12 @@ hr{
 }
 
 .projetos-container div {
-    width: 250px;
-    height: 300px;
+    width: 15.6rem;
+    height: 18.75rem;
     border: solid 1px white;
 }
 
-
-
-
-
-
-
+/*part5*/
 .contato {
     display: flex;
     flex-direction: column;

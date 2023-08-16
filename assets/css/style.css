@@ -121,8 +121,9 @@ main {
 .about-box-down {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    gap: 6.25rem;
+    justify-content: space-evenly;
+    gap: 300px;
+    padding: 0 150px 0 120px;
 }
 
 .about-box-up-conteudo {
@@ -142,6 +143,7 @@ main {
 .descricao {
     color: var(--color-light-100);
     text-align: justify;
+    font-size: 18px;
 }
 
 .ano {
@@ -208,6 +210,7 @@ hr {
 .projetos-descricao {
     color: var(--color-light-200);
     padding-bottom: 1.875rem;
+    font-size: 18px;
 }
 
 .projetos-container {
@@ -215,12 +218,12 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
 }
 
 .projetos-container div {
     width: 15.6rem;
     height: 18.75rem;
+    border-radius: 12px;
     border: solid 1px white;
 }
 
@@ -249,6 +252,7 @@ hr {
 .contato-container-email {
     color: var(--color-green);
     text-decoration: underline;
+    font-size: 18px;
 }
 
 .contato-container-redes {
@@ -310,6 +314,13 @@ hr {
 
 .svgFour {
     width: 1.38rem;
+}
+
+.svgOne path,
+.svgTwo path,
+.svgThree path,
+.svgFour path {
+    fill: var(--color-dark-900);
 }
 
 .socialContainer:hover .svgOne,
@@ -378,4 +389,62 @@ footer {
 
 .footer-container p span {
     color: var(--color-green);
+}
+
+@media (max-width: 1300px) {
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 60px;
+        width: 80%;
+        padding: 2%;
+    }
+    .home-quemsou{
+        font-size: 52px;
+    }
+    .about-box-down {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 100px;
+        padding: 0 150px 0 120px;
+    }
+    .skills-icons {
+        gap: 20px;
+    }
+    .skills-icons-container {
+        max-width: 100px;
+    }
+    .skills-icons-container img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .projetos-container{
+        width: 100%;
+    }
+    .projetos-container div {
+        width: 200px;
+        height: 18.75rem;
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-container .menu {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .projetos-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .projetos-container div {
+        width: 400px;
+        height: 200px;
+    }
 }

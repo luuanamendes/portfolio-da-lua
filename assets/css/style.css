@@ -17,7 +17,6 @@
     text-decoration: none;
 }
 
-
 body {
     background-color: var(--color-dark-900);
 }
@@ -175,8 +174,13 @@ hr {
 .skills-icons {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    gap: 2rem;
+    gap: 20px;
+}
+
+.skills-divisao {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .skills-icons-container {
@@ -209,7 +213,7 @@ hr {
 
 .projetos-descricao {
     color: var(--color-light-200);
-    padding-bottom: 1.875rem;
+    padding-bottom: 3rem;
     font-size: 18px;
 }
 
@@ -392,7 +396,7 @@ footer {
 }
 
 @media (max-width: 1300px) {
-    .home{
+    .home {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -401,9 +405,11 @@ footer {
         width: 80%;
         padding: 2%;
     }
-    .home-quemsou{
+
+    .home-quemsou {
         font-size: 52px;
     }
+
     .about-box-down {
         display: flex;
         flex-direction: row;
@@ -411,26 +417,29 @@ footer {
         gap: 100px;
         padding: 0 150px 0 120px;
     }
-    .skills-icons {
-        gap: 20px;
-    }
+
     .skills-icons-container {
         max-width: 100px;
     }
+
     .skills-icons-container img {
         max-width: 100px;
         max-height: 100px;
     }
-    .projetos-container{
+
+    .projetos-container {
         width: 100%;
     }
+
     .projetos-container div {
         width: 200px;
         height: 18.75rem;
     }
+
     .footer-container {
         flex-direction: column;
     }
+
     .footer-container .menu {
         width: 45%;
         margin-bottom: 20px;
@@ -438,13 +447,189 @@ footer {
 }
 
 @media (max-width: 800px) {
+    header {
+        padding: 2% 0 5% 0;
+    }
+
+    .menu-box-icon {
+        width: 24px;
+    }
+
+    .menu-box-links a {
+        font-size: 16px;
+    }
+
+    .home-quemsou {
+        font-size: 50px;
+    }
+
+    .home-animation {
+        width: 500px;
+    }
+
+    .about-titulo {
+        font-size: 32px;
+    }
+
+    .descricao,
+    .ano {
+        font-size: 16px;
+    }
+
+    .about-box-up {
+        gap: 40px;
+    }
+
+    .about-box-down {
+        gap: 40px;
+        padding: 0 30px 0 30px;
+    }
+
+    .skills-titulo {
+        font-size: 32px;
+    }
+
+    .skills-icons {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .projetos-titulo {
+        font-size: 32px;
+    }
+
+    .projetos-descricao {
+        font-size: 16px;
+    }
+
     .projetos-container {
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 20px;
     }
+
     .projetos-container div {
         width: 400px;
+        height: 200px
+    }
+
+    .contato-titulo {
+        font-size: 32px;
+    }
+
+    .contato-container-email {
+        font-size: 16px;
+    }
+
+    .footer-container .menu {
+        width: 50%;
+        padding: 1%;
+    }
+}
+
+@media (max-width: 550px) {
+    .menu-box-links a {
+        font-size: 14px;
+    }
+
+    .home-quemsou {
+        font-size: 26px;
+    }
+
+    .home-animation {
+        width: 300px;
+    }
+
+    .about-titulo {
+        font-size: 20px;
+    }
+
+    .descricao {
+        text-align: left;
+        font-size: 11px;
+    }
+
+    .about-box-up-conteudo:nth-child(2) {
+        margin-top: 10px;
+    }
+
+    .about-box-up-conteudo:last-child {
+        margin-top: 36px;
+    }
+
+    .ano {
+        font-size: 12px;
+    }
+
+    .about-box-up {
+        gap: 40px;
+    }
+
+    .about-box-down {
+        gap: 40px;
+        padding: 0 20px 0 20px;
+    }
+
+    .skills-titulo {
+        font-size: 20px;
+    }
+
+    .skills-icons {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .skills-icons-container {
+        max-width: 80px;
+    }
+
+    .skills-icons-container img {
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    .projetos-titulo {
+        font-size: 20px;
+    }
+
+    .projetos-descricao {
+        font-size: 14px;
+    }
+
+    .projetos-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .projetos-container div {
+        width: 350px;
         height: 200px;
+    }
+
+    .contato-titulo {
+        font-size: 20px;
+    }
+
+    .contato-container-email {
+        font-size: 14px;
+    }
+
+    .contato-container-redes {
+        gap: 10px;
+    }
+
+    .footer-container .menu {
+        width: 70%;
+    }
+
+    .footer-container .menu a {
+        font-size: 12px;
+    }
+
+    .footer-container p {
+        font-size: 12px;
     }
 }

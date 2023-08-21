@@ -101,7 +101,7 @@ main {
     font-weight: bold;
     font-size: 3rem;
     color: var(--color-light-200);
-    padding: 6.25rem 0 2rem 0;
+    padding: 10rem 0 3.75rem 0;
 }
 
 .about-box {
@@ -122,7 +122,7 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     gap: 300px;
-    padding: 0 150px 0 120px;
+    padding: 0 9.37rem 0 7.5rem;
 }
 
 .about-box-up-conteudo {
@@ -142,7 +142,7 @@ main {
 .descricao {
     color: var(--color-light-100);
     text-align: justify;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .ano {
@@ -168,19 +168,19 @@ hr {
     font-weight: bold;
     font-size: 3rem;
     color: var(--color-light-200);
-    padding: 6.25rem 0 2rem 0;
+    padding: 10rem 0 3.75rem 0;
 }
 
 .skills-icons {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .skills-divisao {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .skills-icons-container {
@@ -208,13 +208,13 @@ hr {
     font-weight: bold;
     font-size: 3rem;
     color: var(--color-light-200);
-    padding: 6.25rem 0 2rem 0;
+    padding: 10rem 0 3.75rem 0;
 }
 
 .projetos-descricao {
     color: var(--color-light-200);
     padding-bottom: 3rem;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .projetos-container {
@@ -227,8 +227,8 @@ hr {
 .projetos-container div {
     width: 15.6rem;
     height: 18.75rem;
-    border-radius: 12px;
-    border: solid 1px white;
+    border-radius: 0.75rem;
+    border: solid 1px white; 
 }
 
 /*part5*/
@@ -245,7 +245,7 @@ hr {
     font-weight: bold;
     font-size: 3rem;
     color: var(--color-light-200);
-    padding: 6.25rem 0 2rem 0;
+    padding: 10rem 0 3.75rem 0;
 }
 
 .contato-container {
@@ -256,7 +256,7 @@ hr {
 .contato-container-email {
     color: var(--color-green);
     text-decoration: underline;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .contato-container-redes {
@@ -371,7 +371,7 @@ footer {
 
 .footer-container .menu a {
     color: var(--color-light-300);
-    font-size: 14px;
+    font-size: 0.875rem;
     transition: .3s;
 }
 
@@ -383,7 +383,7 @@ footer {
 
 .footer-container p {
     color: var(--color-light-300);
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .footer-container p a {
@@ -401,7 +401,7 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        gap: 60px;
+        gap: 3.75rem;
         width: 80%;
         padding: 2%;
     }
@@ -414,17 +414,17 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        gap: 100px;
-        padding: 0 150px 0 120px;
+        gap: 6.25rem;
+        padding: 0 9.375rem 0 7.5rem;
     }
 
     .skills-icons-container {
-        max-width: 100px;
+        max-width: 6.25rem;
     }
 
     .skills-icons-container img {
-        max-width: 100px;
-        max-height: 100px;
+        max-width: 6.25rem;
+        max-height: 6.25rem;
     }
 
     .projetos-container {
@@ -432,7 +432,7 @@ footer {
     }
 
     .projetos-container div {
-        width: 200px;
+        width: 12.5rem;
         height: 18.75rem;
     }
 
@@ -442,7 +442,7 @@ footer {
 
     .footer-container .menu {
         width: 45%;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 }
 
@@ -452,74 +452,74 @@ footer {
     }
 
     .menu-box-icon {
-        width: 24px;
+        width: 1.5rem;
     }
 
     .menu-box-links a {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .home-quemsou {
-        font-size: 50px;
+        font-size: 3.125rem;
     }
 
     .home-animation {
-        width: 500px;
+        width: 31.25rem;
     }
 
     .about-titulo {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .descricao,
     .ano {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .about-box-up {
-        gap: 40px;
+        gap: 2.5rem;
     }
 
     .about-box-down {
-        gap: 40px;
-        padding: 0 30px 0 30px;
+        gap: 2.5rem;
+        padding: 0 1.875rem 0 1.875rem;
     }
 
     .skills-titulo {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .skills-icons {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 1.25rem;
     }
 
     .projetos-titulo {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .projetos-descricao {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .projetos-container {
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 1.25rem;
     }
 
     .projetos-container div {
-        width: 400px;
-        height: 200px
+        width: 25rem;
+        height: 12.5rem;
     }
 
     .contato-titulo {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .contato-container-email {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .footer-container .menu {
@@ -530,95 +530,88 @@ footer {
 
 @media (max-width: 550px) {
     .menu-box-links a {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     .home-quemsou {
-        font-size: 26px;
+        font-size: 1.625rem;
+        margin-top: 3.75rem;
     }
 
     .home-animation {
-        width: 300px;
+        width: 18.75rem;
     }
 
     .about-titulo {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .descricao {
         text-align: left;
-        font-size: 11px;
-    }
-
-    .about-box-up-conteudo:nth-child(2) {
-        margin-top: 10px;
-    }
-
-    .about-box-up-conteudo:last-child {
-        margin-top: 36px;
+        font-size: 0.75rem;
     }
 
     .ano {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 
     .about-box-up {
-        gap: 40px;
+        gap: 2.5rem;
     }
 
     .about-box-down {
-        gap: 40px;
-        padding: 0 20px 0 20px;
+        gap: 2.5rem;
+        padding: 0 1.25rem 0 1.25rem;
     }
 
     .skills-titulo {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .skills-icons {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 1.25rem;
     }
 
     .skills-icons-container {
-        max-width: 80px;
+        max-width: 5rem;
     }
 
     .skills-icons-container img {
-        max-width: 80px;
-        max-height: 80px;
+        max-width: 5rem;
+        max-height: 5rem;
     }
 
     .projetos-titulo {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .projetos-descricao {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     .projetos-container {
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 1.25rem;
     }
 
     .projetos-container div {
-        width: 350px;
-        height: 200px;
+        width: 21.875rem;
+        height: 12.5rem;
     }
 
     .contato-titulo {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .contato-container-email {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     .contato-container-redes {
-        gap: 10px;
+        gap: 0.625rem;
     }
 
     .footer-container .menu {
@@ -626,10 +619,10 @@ footer {
     }
 
     .footer-container .menu a {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 
     .footer-container p {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 }

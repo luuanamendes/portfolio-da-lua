@@ -5,6 +5,7 @@
     --color-dark-900: #191919;
 
     --color-green: #C0CC46;
+    --color-green-1: #C0CC4610;
 
     --fonte-principal: 'Poppins', sans-serif;
 }
@@ -225,10 +226,19 @@ hr {
 }
 
 .projetos-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 15.6rem;
     height: 18.75rem;
     border-radius: 0.75rem;
-    border: solid 1px white; 
+    border: solid 1px var(--color-green); 
+    background-color: var(--color-green-1);
+}
+
+.projetos-container div p{
+    color: var(--color-light-200);
+    font-weight: bold;
 }
 
 /*part5*/

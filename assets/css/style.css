@@ -5,6 +5,7 @@
 
     --color-green: #C0CC46;
     --color-green-1: #C0CC4610;
+    --color-green-2: #C0CC4630;
 
     --fonte-principal: 'Poppins', sans-serif;
 }
@@ -235,9 +236,30 @@ hr {
     background-color: var(--color-green-1);
 }
 
+.projetos-container div:hover{
+    background-color: var(--color-green-2);
+}
+
+
 .projetos-container div p{
     color: var(--color-light-200);
     font-weight: bold;
+}
+
+.projeto1{
+    background-image: url(./../img/paceraclub-logo.png);
+    background-size: cover;
+}
+
+.projeto1 a{
+    background-color: transparent;
+    width: 15.6rem;
+    height: 18.75rem;
+}
+
+.projeto1 a:hover{
+    background-color: var(--color-green-2);
+    border-radius: 0.75rem;
 }
 
 /*part5*/
